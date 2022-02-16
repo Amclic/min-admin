@@ -1,2 +1,3 @@
-# min-admin
-just for practise
+# Vue 3 + Typescript + Vite
+
+JUST FOR PRACTISE
