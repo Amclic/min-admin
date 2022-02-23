@@ -1,3 +1,8 @@
+// type PP<T extends keyof any, B>  = {
+//   [P in T] : B 
+//   // 最终返回了 B类型
+// }
+
 interface ViteEnv { 
   VITE_SOME_KET: number
   VITE_ROUTE_AUTOLOAD: boolean

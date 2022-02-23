@@ -1,5 +1,8 @@
 <script setup lang="ts">
-console.log(import.meta.env)
+import { info } from '@/api/user';
+
+const res = await info()
+console.log(res.userInfo.avatar)
 </script>
 
 <template>
