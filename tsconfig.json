@@ -13,7 +13,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "isolatedModules": true // 1.限制并提示TS的一些功能，例如ReExport 2.强制要求TS JS文件有import/export 3.对于enum这种类型，TS无法编译所以应该在编辑的时候就提示错误
   },
   "include": [
     "src/**/*.ts",

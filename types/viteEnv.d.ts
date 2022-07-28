@@ -4,10 +4,8 @@
 // }
 
 interface ViteEnv { 
-  VITE_SOME_KET: number
-  VITE_ROUTE_AUTOLOAD: boolean
+  VITE_ROUTER_AUTOLOAD: boolean
   VITE_API_URL: string
-  VITE_UR?: string // 可选属性
 }
 
 interface ImportMetaEnv extends ViteEnv {

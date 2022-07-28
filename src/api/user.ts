@@ -21,4 +21,4 @@ function login() {
   })
 }
 
-export default { info , }
+export default { info, login}

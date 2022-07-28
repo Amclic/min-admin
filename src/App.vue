@@ -1,16 +1,12 @@
 <script setup lang="ts">
-import { info } from '@/api/user';
+import { ref } from 'vue' 
+let a = ref(0)
+for(let i=1;i<=1;i++) {
 
-const res = await info()
-console.log(res.userInfo.avatar)
+}
 </script>
 
 <template>
-  <ul class="bg-red-400">
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-  </ul>
   <router-view />
 </template>
 
